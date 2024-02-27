@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    margin: 0;
+    width: 1120;
+}
+/* Шапка сайту */
+.header {
+    background-color: ;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-img {
+    width: 210;
+}
+.header-list {
+    display: flex;
+    gap: 64px;
+}
+.header-link {
+    color: ;
+    font-weight: 700;
+}
+/* Головна секція  */
+.hero {
+    background-color: ;
+}
+.hero-container {
+    display: flex;
+    gap: 57px;
+}
+.hero-span {
+    color: ;
+    font-weight: 600;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 103%;
+    color: ;
+    padding: 16px 0;
+}
+.hero-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 153%;
+    color: ;
+    padding-bottom: 32px;
+}
+.hero-button {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 153%;
+    color: #fff;
+    padding: 15px 22px;
+    background-color: ;
+    border-radius: 30px;
+    box-shadow: ;
+}
+
+/* Друга секція */
+.servies {
+    background-color:#fbfcff;
+    padding-top: 24px;
+    padding-bottom: 52px;
+}   
+.servies-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: ;
+    text-align: center;
+}
+.servies-title span {
+    color: ;
+}
+.servies-list {
+    display: flex;
+
+}
+.servies-item {
+    display: flex;
+    /* flex-direction: column; */
+}
+.servies-img {
+    width: 49px;
+    height: 49px;
+    margin-right: 12px;
+}
+.servies-caption {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 153%;
+    color: ;
+    margin-bottom: 25px;
+}
+.servies-caption span {
+    font-weight: 500;
+    color: ;
+}
+.servies-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 153%;
+    color: ;
+}
