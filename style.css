@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
 }
 h1, h2, h3, p, ul {
     margin: 0;
@@ -18,7 +20,9 @@ ul {
 }
 /* Шапка сайту */
 .header {
-    background-color: ;
+    background-color: rgb(208, 241, 252);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .header-container {
     display: flex;
@@ -33,20 +37,22 @@ ul {
     gap: 64px;
 }
 .header-link {
-    color: ;
+    color: black;
     font-weight: 700;
 }
 /* Головна секція  */
 .hero {
-    background-color: ;
+    background-color:  rgb(208, 241, 252);
 }
 .hero-container {
     display: flex;
     gap: 57px;
+    align-items: center;
 }
 .hero-span {
     color: ;
     font-weight: 600;
+
 }
 .hero-title {
     font-weight: 700;
@@ -66,11 +72,14 @@ ul {
     font-weight: 900;
     font-size: 20px;
     line-height: 153%;
-    color: #fff;
+    color: #ffffff;
     padding: 15px 22px;
-    background-color: ;
+    background: #6278b4;
     border-radius: 30px;
-    box-shadow: ;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-top: 30px;
+    margin: 8px;
 }
 
 /* Друга секція */
@@ -82,19 +91,24 @@ ul {
 .servies-title {
     font-weight: 600;
     font-size: 48px;
-    color: ;
+    color: black;
     text-align: center;
+    border-bottom: 4px solid grey;
+    width: 351px;
+    margin: 0 auto 18px;
 }
 .servies-title span {
     color: ;
 }
 .servies-list {
     display: flex;
+    gap: 85px;
+    padding-bottom: 57px;
 
 }
 .servies-item {
     display: flex;
-    /* flex-direction: column; */
+    flex: 1;
 }
 .servies-img {
     width: 49px;
@@ -105,8 +119,7 @@ ul {
     font-weight: 400;
     font-size: 24px;
     line-height: 153%;
-    color: ;
-    margin-bottom: 25px;
+    
 }
 .servies-caption span {
     font-weight: 500;
@@ -117,4 +130,39 @@ ul {
     font-size: 14px;
     line-height: 153%;
     color: ;
+}
+/* Footer */
+.footer {
+    background-color:#535353;
+    margin-top: 32px;
+    margin-bottom: 90px;
+    height: 354px;
+}
+.footer-wrap {
+    border-bottom: 2px solid #6278b4;
+    width: 1120px;
+    padding-bottom: 28px;
+}
+.footer-title {
+    color: #ffffff;
+    padding-top: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-img {
+    padding-right: 22px;
+}
+.footer-link {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+.footer-item {
+    display: flex;
+    align-items: center;
 }
