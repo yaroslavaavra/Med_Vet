@@ -29,8 +29,9 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
-.header-img {
+.header-logo {
     width: 210;
+    padding-left: 50px;
 }
 .header-list {
     display: flex;
@@ -39,6 +40,7 @@ ul {
 .header-link {
     color: black;
     font-weight: 700;
+    padding-right: 20px;
 }
 /* Головна секція  */
 .hero {
@@ -50,22 +52,21 @@ ul {
     align-items: center;
 }
 .hero-span {
-    color: ;
     font-weight: 600;
-
+    padding-left: 50px;
 }
 .hero-title {
     font-weight: 700;
     font-size: 48px;
     line-height: 103%;
-    color: ;
+    padding-left: 50px;
     padding: 16px 0;
 }
 .hero-text {
     font-weight: 500;
     font-size: 28px;
     line-height: 153%;
-    color: ;
+    padding-left: 50px;
     padding-bottom: 32px;
 }
 .hero-button {
